@@ -7,8 +7,7 @@ import random
 from telepot import DelegatorBot
 from telepot.delegate import pave_event_space, per_chat_id, create_open
 
-TOKEN = '692167822:AAFd3ebAn8_Fik24QKAoz2_BE7sunzXUptU'
-
+TOKEN = environ.get('BOT_TOKEN')
 
 trans_rest = 0
 trans_text = 1
